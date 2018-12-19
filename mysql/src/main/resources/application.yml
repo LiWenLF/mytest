@@ -1,0 +1,11 @@
+server:
+  port: 80
+  servlet:
+      context-path: /springboot
+  tomcat:
+    uri-encoding: UTF-8
+  logging:
+    config: classpath:logback_boot.xml
+spring:
+  profiles:
+    active: dev
